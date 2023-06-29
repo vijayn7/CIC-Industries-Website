@@ -1,0 +1,33 @@
+#slidingImage {  
+  color: #2b2c48;  
+  font-family: "Jost", sans-serif;  
+  background-image: url("../assets/slide1.jpg");  
+  background-repeat: no-repeat;  
+  background-size: cover;  
+  background-position: center;  
+  background-attachment: fixed;  
+  min-height: 100vh;  
+  display: flex;  
+  flex-wrap: wrap;  
+}
+
+#btn-back-to-top {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  right: 20px;
+  bottom: 20px;
+  border-radius: 40px;
+  height: 60px;
+  width: 60px;
+  background: gray url('../assets/up-arrow.png') no-repeat center;
+}
+
+section {
+  padding: 60px;
+}
+
+section#chapter .row .col img{
+  width: 100%; 
+  height: auto;
+}
