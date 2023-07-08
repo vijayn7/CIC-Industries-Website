@@ -31,3 +31,7 @@ section#chapter .row .col img{
   width: 100%; 
   height: auto;
 }
+
+nav .container-xxl .navbar-brand span .logoImage {
+  width: 10rem;
+}
