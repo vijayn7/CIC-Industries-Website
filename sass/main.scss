@@ -121,6 +121,24 @@ section#connect .container-fluid .row .col img {
     width: 137px;
 }
 
+section#docusign {
+    background-image: url("../assets/forms-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    opacity: 0.9;
+    box-shadow: inset 0 0 0 1000rem rgba(38, 38, 51, 0.7);
+    padding-top: 6rem;
+}
+
+section#docusign .container-fluid div.row {
+    padding-bottom: 6rem;
+}
+
 section#footer {
     background-color: $primary;
     height: 30vh;
