@@ -121,5 +121,10 @@ section#connect .container-fluid .row .col img {
     width: 137px;
 }
 
+section#footer {
+    background-color: $primary;
+    height: 30vh;
+}
+
 //Import bootstrap (Should be at the end of the file)
 @import "../node_modules/bootstrap/scss/bootstrap"
