@@ -102,5 +102,20 @@ section#productsAndServices .container-fluid .row .col {
     margin-top: 10%;
 }
 
+section#connect {
+    color: var(--textcolor-Dark);
+}
+
+section#connect svg {
+    width: 30%;
+    height: 0.4rem;
+}
+
+section#connect svg rect {
+    width: 100%;
+    height: 100%;
+    fill: $primary;
+}
+
 //Import bootstrap (Should be at the end of the file)
 @import "../node_modules/bootstrap/scss/bootstrap"
