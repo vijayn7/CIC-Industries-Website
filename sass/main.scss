@@ -3,7 +3,7 @@
 
 //Bootstrap Var Override
 $font-size-base: 1.2rem;
-$font-family-base: 'Chivo', sans-serif;
+$font-family-base: 'Krub', sans-serif;
 
 $primary: #243B98;
 
@@ -61,7 +61,7 @@ section#intro {
 
 section#intro .container-sm .row .col {
     text-align: center;
-    color: var(--textcolor);
+    color: var(--textcolor-Dark);
 }
 
 section#intro .container-sm .row .col img {
