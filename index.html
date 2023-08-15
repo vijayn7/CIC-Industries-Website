@@ -12,13 +12,13 @@
     <!-- BootStrap + Custom CSS -->
     <link href="css/main.min.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/locomotive-scroll.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css" />
 
     <title>CIC Industries</title>
 
 </head>
 
-<body>
+<body data-scroll-container>
 
     <!-- Navbar -->
     <nav class="navbar navbar-expand-md navbar-light sticky-lg-top bg-light">
@@ -60,10 +60,12 @@
     <section id="intro">
         <div class="container-sm">
             <div class="row">
-                <div class="col">
+                <div class="col" data-scroll data-scroll-speed="2">
                     <img src="assets/CIC Logo White.png" alt="Logo Image">
-                    <div class="slogan fs-1">Slogan Goes here!</div>
-                    <div class="tagline fs-4">Start Shopping Today!</div>
+                    <div class="slogan fs-1" data-scroll data-scroll-direction="horizontal" data-scroll-speed="-2">
+                        Slogan Goes here!</div>
+                    <div class="tagline fs-4" data-scroll data-scroll-direction="horizontal" data-scroll-speed="2">Start
+                        Shopping Today!</div>
                     <button type="button" class="btn btn-primary"> Products </button>
                 </div>
             </div>
@@ -98,11 +100,17 @@
             <div class="row my-4">
                 <div class="col text-center">
                     <div class="fs-1 mb-1">Products</div>
-                    <p class="px-2 px-sm-8 px-md-2 px-lg-5"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum in eligendi placeat accusamus ullam deserunt eius aliquam vitae consequatur officiis perferendis atque tempore harum, non facere corrupti? Blanditiis molestias doloribus, laborum, vel autem hic debitis facere accusantium quo, modi fugiat!</p>
+                    <p class="px-2 px-sm-8 px-md-2 px-lg-5"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Rerum in eligendi placeat accusamus ullam deserunt eius aliquam vitae consequatur officiis
+                        perferendis atque tempore harum, non facere corrupti? Blanditiis molestias doloribus, laborum,
+                        vel autem hic debitis facere accusantium quo, modi fugiat!</p>
                 </div>
                 <div class="col text-center mt-5 mt-sm-4 mt-md-0">
                     <div class="fs-1 mb-1">Services</div>
-                    <p class="px-2 px-sm-8 px-md-2 px-lg-5"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum in eligendi placeat accusamus ullam deserunt eius aliquam vitae consequatur officiis perferendis atque tempore harum, non facere corrupti? Blanditiis molestias doloribus, laborum, vel autem hic debitis facere accusantium quo, modi fugiat!</p>
+                    <p class="px-2 px-sm-8 px-md-2 px-lg-5"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Rerum in eligendi placeat accusamus ullam deserunt eius aliquam vitae consequatur officiis
+                        perferendis atque tempore harum, non facere corrupti? Blanditiis molestias doloribus, laborum,
+                        vel autem hic debitis facere accusantium quo, modi fugiat!</p>
                 </div>
             </div>
         </div>
@@ -140,6 +148,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
         crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 
 </html>
